@@ -111,30 +111,7 @@ export function ContactForm() {
             />
           </div>
 
-          <div>
-            <label htmlFor="subject" className="block mb-2">
-              Subject <span className="text-purple-500">*</span>
-            </label>
-            <div className="relative">
-              <select
-                id="subject"
-                name="subject"
-                value={formData.subject}
-                onChange={handleChange}
-                required
-                className="w-full bg-gray-900 border border-gray-800 rounded-md px-4 py-3 text-white appearance-none"
-              >
-                <option value="" disabled>
-                  Select a subject
-                </option>
-                <option value="General Inquiry">General Inquiry</option>
-                <option value="Support">Technical Support</option>
-                <option value="Partnership">Partnership</option>
-                <option value="Other">Other</option>
-              </select>
-              <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
-            </div>
-          </div>
+      
         </div>
 
         <div className="mb-6">

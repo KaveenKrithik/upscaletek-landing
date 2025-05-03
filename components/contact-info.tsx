@@ -25,19 +25,8 @@ export function ContactInfo() {
 
       <div className="space-y-10">
         <motion.div variants={itemVariants} className="flex items-start">
-          <div className="bg-purple-900 bg-opacity-30 p-3 rounded-full mr-4">
-            <MapPin className="text-purple-500" size={24} />
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Our Location</h3>
-            <p className="text-gray-300">
-              123 Anna Salai, Thousand Lights
-              <br />
-              Chennai, Tamil Nadu 600002
-              <br />
-              India
-            </p>
-          </div>
+         
+         
         </motion.div>
 
         <motion.div variants={itemVariants} className="flex items-start">
@@ -62,17 +51,7 @@ export function ContactInfo() {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="flex items-start">
-          <div className="bg-purple-900 bg-opacity-30 p-3 rounded-full mr-4">
-            <Clock className="text-purple-500" size={24} />
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Business Hours</h3>
-            <p className="text-gray-300">Monday - Friday: 9:00 AM - 6:00 PM</p>
-            <p className="text-gray-300">Saturday: 10:00 AM - 2:00 PM</p>
-            <p className="text-gray-300">Sunday: Closed</p>
-          </div>
-        </motion.div>
+      
       </div>
     </motion.div>
   )
