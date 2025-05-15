@@ -35,8 +35,8 @@ export function ContactInfo() {
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-2">Phone</h3>
-            <p className="text-gray-300">+91 98765 43210</p>
-            <p className="text-gray-300">+91 98765 12345</p>
+            <p className="text-gray-300">+91 733 880 3631</p>
+            
           </div>
         </motion.div>
 
@@ -46,8 +46,8 @@ export function ContactInfo() {
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <p className="text-gray-300">info@upscaletek.com</p>
-            <p className="text-gray-300">support@upscaletek.com</p>
+            <p className="text-gray-300">upscaletek@gmail.com</p>
+          
           </div>
         </motion.div>
 
